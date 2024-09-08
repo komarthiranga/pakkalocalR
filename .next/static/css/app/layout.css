@@ -561,11 +561,11 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
+.mt-10 {
+  margin-top: 2.5rem;
+}
 .mt-4 {
   margin-top: 1rem;
-}
-.mt-40 {
-  margin-top: 10rem;
 }
 .mt-8 {
   margin-top: 2rem;
