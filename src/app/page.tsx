@@ -22,7 +22,7 @@ export default function LoginForm() {
       </CardHeader>
       <CardContent>
         <div className="grid gap-4">
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4"> {/* Use 1 column on small screens and 2 columns on medium and larger screens */}
             <div className="grid gap-2">
               <Label htmlFor="first-name">First name</Label>
               <Input id="first-name" placeholder="Max" required />
